@@ -1,0 +1,18 @@
+Istruzioni importazione
+
+DA FIN TRENTINO
+Scaricare i file pdf->unirli->estrarre solo le pagine di riepilogo o serie unica->convertire in CSV
+Aprire csv con Notepad 2
+Sostiuire i blocchi di inizio pagine con spazio vuoto
+Ersetzen ^"Pubblicata:.*\r?\n?
+Ripulire a mano (squalificati, extra righe, ecc)
+Togliere la m di metri
+Sostituire Gli stili con SL, DO ecc
+
+Lanciare script TN_Gesamt.py
+
+Apri TeamManager
+Veranstaltung->Neu->aus DSV Datei->Laden-Einlesen->Aktualisieren->WK-Struktur checken
+Resultate->aus DSV->Laden->Einlesen->Zuweisen->Importieren
+Auswertung->Res. Veranst->Tabelle->Voransicht
+
